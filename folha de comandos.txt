@@ -1,0 +1,48 @@
+Ativar virtual env:
+cd projeto
+cd venv
+cd Scripts
+activate
+
+Ativar venv Linux e MAC 
+.venv/bin/activate
+
+Criar o projeto Django
+django-admin startproject blog 
+
+Rodar o projeto Django
+python manage.py runserver 
+
+Parar o servidor 
+ctrl + c 
+
+Criar tabalas no banco de dados
+python manage.py migrate 
+
+Criar superusuário
+python manage.py createsuperuser
+
+Criar app
+python manage.py startapp website
+
+Criar git repositório
+git init 
+
+Mostrar histórico do repositório
+git status 
+
+Fazer um commit 
+git add .
+git commit -m "First commit"
+git push origin master  
+git push -u origin main
+
+add remote
+git remote add origin endereço
+
+Listar branchs
+git branch -v
+
+https://html5up.net/strata 
+
+
